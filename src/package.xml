@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>MaintenanceRequestHelper</members>
-        <members>WarehouseCalloutService</members>
-        <members>WarehouseCalloutServiceMock</members>
-        <members>WarehouseCalloutServiceTest</members>
-        <members>WarehouseSyncSchedule</members>
+        <members>*</members>
         <name>ApexClass</name>
     </types>
     <types>
@@ -18,6 +14,13 @@
         <members>Vehicle__c</members>
         <members>Work_Part__c</members>
         <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Case-Case %28HowWeRoll%29 Layout</members>
+        <members>Product2-Product %28HowWeRoll%29 Layout</members>
+        <members>Vehicle__c-Vehicle Layout</members>
+        <members>Work_Part__c-Work Part Layout</members>
+        <name>Layout</name>
     </types>
     <version>36.0</version>
 </Package>
